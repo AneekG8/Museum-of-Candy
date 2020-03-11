@@ -1,0 +1,48 @@
+body{
+	background-color: #f5d9d5;
+	font-family: "nunito";
+}
+/*========================= NavBar==========================*/
+#mainnavbar .navbar-brand{
+	color: #EA1C2C;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainnavbar .nav-link{
+	color: white;
+	font-weight: 100;
+	font-size: 1.2rem;
+}
+#mainnavbar .nav-link:hover{
+	color: #EA1C2C;
+}
+.navbar.scrolled{
+	background-color: rgba(222,192,222,0.9);
+	transition: 0.5s;
+}
+/*========================= Header ======================*/
+#heading h1{
+	font-size: 3rem;
+	font-weight: 100;
+}
+#heading h1 span{
+	color: #EA1C2C;
+}
+@media (max-width: 1150px)
+{
+	#heading h1{
+		font-size: 2rem;
+	}
+}
+/*======================= Main ==========================*/
+#second h2{
+	color: #EA1C2C;
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+#second p{
+	color: #f498b8;
+	font-weight: 100;
+	font-size: 0.85rem;
+	line-height: 2;
+}
